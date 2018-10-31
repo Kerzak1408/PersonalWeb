@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Hungry Birds</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HungryBirds_1_1.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+   <body style="background-color:#deeaee;">
+      <div class="webgl-content">
+         <div id="gameContainer" style="width: 960px; height: 100%"></div>
+         <div class="footer" align="center">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">Hungry Birds</div>
+            <p>
+               <br/>				
+            <h3> Controls </h3>
+		W-S, Up-Down
+            </p>
+            <p>
+            <h3> Decription </h3>
+            <p>
+               The less you eat, the faster you are. But if you lose all your weight, you die!
+            </p>
+            </p>
+            <p>
+            <h3> Downloads </h3>
+            <p><a href="./HungryBirdsWindows.zip" download = "HungryBirds">
+            Windows application
+            </a></p>
+            <p style="margin-left: 10px"><a href='https://play.google.com/store/apps/details?id=com.Ohman.SwallowBird&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img  alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></p>
+            <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+	    </p>	
+	    <p>Created at <a href="https://ldjam.com/events/ludum-dare/40/hungry-birds">
+            Ludum Dare 40</a> by Lucia Magurová and Ľubomír Ohman</p>
+         </div>
+      </div>
+   </body>
+
+</html>

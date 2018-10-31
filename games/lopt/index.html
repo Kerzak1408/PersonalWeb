@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Lopt</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body style="background-color:#deeaee;">
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Lopt</div>
+		<p>
+	    <br/>				
+		<h3> Controls </h3>
+			A, S, D - Spotlights. Space, Enter - Start Game. P - Pause.
+		</p>
+		<p>
+		<h3> Decription </h3>
+		<p>
+		   Lopt changes his color over time. Your task is to switch the spotlights ON/OFF to match his color.
+		</p>
+		</p>
+		<p style="margin-left: 10px"><a href='https://play.google.com/store/apps/details?id=com.Kerzak.Colors&hl=en'><img  alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></p>
+		<p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+      </div>
+    </div>
+  </body>
+</html>

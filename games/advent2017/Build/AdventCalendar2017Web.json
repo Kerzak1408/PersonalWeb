@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "AdventCalendar2017Web.data.unityweb",
+"asmCodeUrl": "AdventCalendar2017Web.asm.code.unityweb",
+"asmMemoryUrl": "AdventCalendar2017Web.asm.memory.unityweb",
+"asmFrameworkUrl": "AdventCalendar2017Web.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

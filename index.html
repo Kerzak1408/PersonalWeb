@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/content-switcher.js"></script>
+	</head>
+	<body>
+		
+		<div class="header">
+		  <img src="Pictures/Me.jpg" style="float:left; float:top; "/>
+		  <h1>Ľubom&iacute;r Ohman</h1>
+		</div>
+
+		<div class="vertical-menu">
+		  <a id="Home" href="#" class="active">Home</a>
+		  <a id="CV" href="#">Resume</a>
+		  <a id="Games" href="#">Games</a>
+		  <a id="Links" href="#">Links</a>
+
+		</div>
+		<div>
+		  <div id="HomeContent" class="main-content">
+			<p>
+		        Welcome to my personal web! &#9786; 
+			</p>
+			<p>
+				I am a Software Developer, who is about to finish Master's degree studies in the field of
+				Artificial Intelligence at Charles University in Prague. This web summarizes basic professional information about me
+				and also contains the links to my open-source work and the ways to contact me. Enjoy and do not hesitate to let me know
+				about any questions that bothers you about me or this web.
+  			</p>
+			<p>
+				
+			</p>
+			</div>
+		
+		  <div id="CVContent" class="main-content" style="display:none;">
+			  <p>Structured CV in <a href="Documents/Lubomir_Ohman_CV_en.pdf">this PDF</a>.</p>
+			  <h2>Education</h2>
+			  <p>
+				<b>Master in Artificial Intelligence</b> at Charles University in 
+				Prague. (started in October 2016, expected graduation in June 2018)
+			  </p>
+			  <p>
+				<b>Bachelor in Computer Science</b> at Charles University in Prague. 
+				(started in October 2013, graduated in September 2016)
+			  </p>
+			  <p>
+				Spent a semester at University of Padua as an Erasmus student. 
+				(from March 2017 to July 2017)
+			  </p>
+			  <h2>Work experience</h2>
+			  <p>
+				<b>C# developer</b> at Eplan Solutions from August 2016 to February 2017.
+				Implemented new features and fixed bugs in a program dedicated to model
+				and design the wire harnesses in 3D environment. Team Foundation Server
+				was used as a tracking system.
+			  </p>
+			  <p>
+				<b>Junior Java developer</b> at Unicorn Solutions from July 2015 to September 2015.
+				Participated in development of internal Information System.
+			  </p>
+			  <h2>Open-source portfolio</h2>
+			  <p>
+				<b>Fruitons</b> is an online multiplayer turn-based game that was
+				created for a university subject called Software Project. The program 
+				was created by the team of 4 people I lead. All the projects are available
+				at our <a href="http://prak.mff.cuni.cz:7990" target="_blank">Bitbucket</a>,
+				the game itself has its own 
+				<a href="http://prak.mff.cuni.cz:8050/fruiton/" target="_blank">website</a>.
+				As for the programming languages, there were used C# (in Unity3D), Haxe and
+				Java. For the efficient build process, Tomcat, Artifactory and Bamboo were used and
+				as a tracking system there was Jira.
+			  <p>
+			  <p>
+				<b>Heist (in progress)</b> is how I call the program for my Master's thesis. It's
+				purpose is to enable modeling environments of security objects and to create
+				artificial burglars that try to rob the valuable things inside them.
+				It is able to move inside the modeled environment as a security guard and detect the burglars.
+				The target user of the application is a security guards trainer that would
+				model the desired environment and train his trainees using the program. Source
+				code is available at my <a href="https://github.com/Kerzak1408/SecurityGame" target="_blank">Github</a>.
+				It is written developed in C# using Unity3D.
+			  </p>
+			  <p>
+				Other public projects I created are available on my
+				<a href="https://github.com/Kerzak1408" target="_blank">Github</a>
+				as well. There is a <a href="https://github.com/Kerzak1408/cook_for_me_server" target="_blank">Java server</a>
+				for <a href="https://github.com/Kerzak1408/cook_for_me_client" target="_blank">Android client</a>,
+				forming shared economy cooking application. In addition, Github contains my 
+				<a href="https://github.com/Kerzak1408/HearthstoneAI" target="_blank">Bachelor thesis</a>,
+				Artificial Intelligence for Hearthstone in Python. Remaining two projects,
+				<a href="https://github.com/Kerzak1408/Hungry-Birds" target="_blank">Hungry birds</a> and 
+				<a href="https://github.com/Kerzak1408/Lopt" target="_blank">Lopt</a>, are both small games 
+				written in Unity3D.
+			  <p>
+			  <h2>Technical skills summary</h2>
+			  <p>
+				Highly skilled in C#, Java and Python on both commercial and university levels.
+				University experience with Haxe, C++, Pascal, MAtlab, XML technologies, HTML,
+				CSS, SQL, UML, Haskell, Prolog, Artifactory, Bamboo and Tomcat.
+				Knowledgeable in Ruby, Javascript, JQuery, Bootstrap, CSS, Mongo DB.
+				Familiar with Windows, Linux, Android, TCP/IP.
+			  </p>
+			  <h2>Team skills<h2>
+			  <p>
+				SCRUM, JIRA, TFS, Git, Slack.
+			  </p>
+			  <h2>Programming motto<h2>
+			  <p>
+				It is much harder and much more important to learn how to
+				think analytically than to know all the current technologies.
+				That technologies will be out-of-date in a few years, the mind
+				that can think analytically will adapt and will never be out-of-date.
+			  </p>
+			  </p>
+		  </div>
+
+		  <div id="GamesContent" class="main-content" style="display:none;">
+			<p>
+				Here are some games I created. Have fun! &#x1f3ae;
+			</p>
+			<p class = "games">
+				<a href="games/hungry-birds" target="_blank">
+					<img src="Pictures/HungryBirds.png" alt="Hungry Birds" width="683" height="384" />
+				</a>
+				<a href="games/lopt" target="_blank">
+					<img src="Pictures/Lopt.png" alt="Lopt" width="683" height="384" />
+				</a>
+				<a href="games/advent2017" target="_blank">
+					<img src="Pictures/Advent2017.png" alt="Advent2017" width="683" height="384" />
+				</a>
+			</p>
+		  </div>
+		  
+		  <div id="LinksContent" class="main-content" style="display:none;">
+			<p>
+			My publicly shared work can be found on <a href="https://github.com/kerzak1408" style="color:lightblue" target="_blank">Github</a>,
+			there is my <a href="https://www.linkedin.com/in/lubomirohman" style="color:lightblue" target="_blank">LinkedIn</a> for professional communication
+			and <a href="https://www.facebook.com/lubomir.ohman" style="color:lightblue" target="_blank">Facebook</a> for less formal messaging.
+			</p>
+			<p class="images">
+				<a href="https://www.linkedin.com/in/lubomirohman" target="_blank"> 				
+					<img src="Pictures/LinkedIn_Logo.png" alt="LinkedIn_Logo" /> 	
+				</a>
+				
+				<a href="https://www.facebook.com/lubomir.ohman" target="_blank"> 				
+					<img src="Pictures/Facebook_Logo.png" alt="Facebook_Logo" width="82" height="82" /> 	
+				</a>
+				
+				<a href="https://github.com/kerzak1408" target="_blank"> 				
+					<img src="Pictures/GitHub_Logo.png" alt="Github_Logo"  width="288" height="79" /> 	
+				</a>
+			</p>
+		  </div>
+    </div>
+
+	</body>
+</html>
+						
